@@ -1,2 +1,1 @@
-# assignments
-Emage_Tech Assignments
+This is a repo for all emage_tech assignments
