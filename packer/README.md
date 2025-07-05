@@ -44,19 +44,19 @@ Create and configure a terraform file to automatically deploy.
 
 #### Initialize Terraform
   
-  terraform init
+  >terraform init
 
 #### Validate terraform code
   
-  terraform validate
+  >terraform validate
   
 #### Dry test code to see possible changes
   
-  terraform plan
+  >terraform plan
 
 #### Apply/Deploy code 
   
-  terraform apply
+  >terraform apply
   > enter yes
 
 Validate config by visiting public-ip of the instance created.
@@ -78,10 +78,10 @@ Validate config by visiting public-ip of the instance created.
 
 #### Deregister ami 
 
-  aws ec2 deregister-image --image-id <ami-1234567890abcdef0> # input packer ami id that was created.
+  >aws ec2 deregister-image --image-id <ami-1234567890abcdef0> # input packer ami id that was created.
 
 #### Delete snapshot associated to AMI
-  aws ec2 delete-snapshot --snapshot-id <snap-1234567890abcdef0>
+  >>aws ec2 delete-snapshot --snapshot-id <snap-1234567890abcdef0>
 
 #### Future projects.
 Figure a away to get packer to output AMI-ids and snapshot ids to local machine
